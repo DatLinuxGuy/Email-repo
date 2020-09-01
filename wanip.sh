@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# This script checks current ip and sends info to a gmail email account.
+# This script checks current ip and sends info to a email account. Will be updating over time
 # Also requires a working config in /etc/ssmtp/ssmtp.conf "https://www.havetheknowhow.com/Configure-the-server/Install-ssmtp.html"
 
 if [ -e /usr/sbin/ssmtp ] ;then
